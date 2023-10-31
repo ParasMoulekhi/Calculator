@@ -16,7 +16,8 @@ arr.forEach((button) => {
       } catch (error) {
         input.value = "Syntax Error!";
         setTimeout(() => {
-          input.value = "";
+          input.value = "0";
+          string = "";
         }, 2000);
       }
     } else if (e.target.innerHTML == "AC") {
